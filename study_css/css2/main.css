@@ -1,0 +1,4 @@
+.fruits *:nth-child(-n+3) {
+  color: aqua;
+
+}

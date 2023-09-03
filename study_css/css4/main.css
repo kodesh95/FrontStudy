@@ -1,0 +1,12 @@
+div {
+  font-size: 70px;
+}
+
+/* 11점 */
+div.Hello {
+  color: red;
+}
+/* 10점 */
+.Hello {
+  color: green;
+}

@@ -1,0 +1,41 @@
+.box {
+  width: 100px;
+  height: 100px;
+  background: orange;
+
+  transition: 1s;
+}
+
+.box:focus {
+  width: 300px;
+  background-color: royalblue;
+}
+
+.box::before {
+  content: "before!";
+  display: block;
+  width: 30;
+  height: 30;
+  background-color: royalblue;
+}
+.box::after {
+  content: "after!";
+  display: block;
+  width: 30;
+  height: 30;
+  background-color: royalblue;
+}
+
+input {
+
+}
+input:focus {
+  background-color: orange;
+}
+
+[type="password"] {
+  background-color: orange;
+}
+[data-fruit-name] {
+  color: royalblue;
+}
